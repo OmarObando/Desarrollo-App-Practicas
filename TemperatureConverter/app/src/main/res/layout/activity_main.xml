@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/img_5681"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message_enterText"
+        android:textSize="26sp"
+        android:layout_margin="16sp"
+        />
+
+    <EditText
+        android:id="@+id/initial_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint ="@string/message_here"
+        android:inputType="number"
+        android:layout_margin="24sp"/>
+
+    <TextView
+        android:id="@+id/textView_finalTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/button_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin = "16sp"
+        android:text = "@string/convert"
+        />
+    
+
+
+
+
+
+</LinearLayout>
