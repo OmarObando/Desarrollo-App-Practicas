@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrimeraAPP</string>
+    <string name="you_should_write_your_name">Debes escribir tu nombre</string>
+    <string name="to_greet">Hola</string>
+    <string name="write_here">Escribe aqui</string>
+    <string name="your_name">Danos tu numbre</string>
+</resources>
